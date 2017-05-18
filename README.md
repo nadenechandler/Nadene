@@ -158,6 +158,23 @@ $(document).ready(function(){
 This allows you to animate any element when it is scrolled to.
 
 To initialise an animation when scrolled to, add the class "wow" and any of the classes listed on animate.css website to the element:
+
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
 ```
 <header class="wow fadeInUpBig">
 
